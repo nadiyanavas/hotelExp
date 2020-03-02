@@ -4,6 +4,27 @@ body{
     margin:0;
     background-color:#f4f4f4;
 }
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
 header{
     background: #F7FF7A;
+    padding-top:10px;
+    border-bottom:#000000 3px solid;
+}
+header #company-name{
+    text-align-last: center;
+}
+
+#main .row{
+    display: flex;
+}
+#main .box img{
+    flex: 33%;
+    border-radius: 8px;
+    padding: 5px;
+    height: 300px;
+    width: 400px;
 }
