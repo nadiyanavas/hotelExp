@@ -19,19 +19,20 @@
             <legend>Destination </legend>
             <label for="destination">Where to? </label>
             <select name = "city" required>
-                <option value="Nashville">Nashville,TN</option>
-                <option value="Nashville">Miami,FL</option>
-                <option value="Nashville">Atlanta,GA</option>
-                <option value="Nashville">New York,NY</option>
-                <option value="Nashville">Los Angeles,CA</option>
+                <option value=""> </option>
+                <option value="Nashville">Nashville, TN</option>
+                <option value="Miami">Miami, FL</option>
+                <option value="Atlanta">Atlanta, GA</option>
+                <option value="NewYork">New York, NY</option>
+                <option value="LosAngeles">Los Angeles, CA</option>
             </select>
-            <input type= "text" name="destination" id="destination" required autofocus placeholder="Enter a city" pattern="[a-zA-Z]{3,}" title="Please enter a city name">
         </fieldset>
         <br>
         <fieldset>
             <legend>Booking Details </legend>
             <label for="inDate">Check-in Date </label><input type="date" name="inDate" min="2020-03-03">
             <label for="outDate">Check-out Date </label><input type="date" name="outDate" min="2020-03-03">
+            <br>
             <label for="roomNum">Rooms </label><input type="number" name="roomNum" min="1" max="20">
             <label for="guestNum">Guests </label><input type="number" name="guestNum" min="1" max="6">
         </fieldset>
