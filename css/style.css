@@ -2,7 +2,8 @@ body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
     padding:0;
     margin:0;
-    background-color:#f4f4f4;
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
 }
 .container{
     width:80%;
@@ -10,21 +11,13 @@ body{
     overflow:hidden;
 }
 header{
-    background: #F7FF7A;
     padding-top:10px;
     border-bottom:#000000 3px solid;
 }
 header #company-name{
     text-align-last: center;
 }
-
-#main .row{
-    display: flex;
-}
-#main .box img{
-    flex: 33%;
-    border-radius: 8px;
-    padding: 5px;
-    height: 300px;
-    width: 400px;
+header #company-name h1{
+    font: 30px/1.5 Apple Chancery, cursive;
+    font-weight: 600;
 }
