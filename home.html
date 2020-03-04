@@ -19,7 +19,7 @@
     <section id="select">
         <div class="box">
             <h1>Destination</h1>
-            <select class = "select-css" name="destination" id="destination">
+            <select class = "select-css" name="destination" id="destination" required>
                 <option selected disabled>Select the city...</option>
                 <option value="Nashville">Nashville, TN</option>
                 <option value="Miami">Miami, FL</option>
@@ -27,11 +27,11 @@
         </div>
         <div class="box">
             <h1>Check-in Date</h1>
-            <input type="date" id="check-in" name="check-in">
+            <input type="date" id="check-in" name="check-in" required defaultValue="2020-03-04" min="2020-03-04">
         </div>
         <div class="box">
             <h1>Check-out Date</h1>
-            <input type="date" id="check-out" name="check-out">
+            <input type="date" id="check-out" name="check-out" required defaultValue="2020-03-05" min="2020-03-04">
         </div>
 
         <div class="box-2">
