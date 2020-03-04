@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/style.css">
     <title>Hotel Reservation | Main Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,29 +16,60 @@
             </div>
         </div>
     </header>
-    <form action="" method="GET">
-        <fieldset>
-            <legend>Destination </legend>
-            <label for="destination">Where to? </label>
-            <select name = "city" required>
-                <option value=""> </option>
+    <section id="select">
+        <div class="box">
+            <h1>Destination</h1>
+            <select class = "select-css" name="destination" id="destination">
+                <option selected disabled>Select the city...</option>
                 <option value="Nashville">Nashville, TN</option>
                 <option value="Miami">Miami, FL</option>
-                <option value="Atlanta">Atlanta, GA</option>
-                <option value="NewYork">New York, NY</option>
-                <option value="LosAngeles">Los Angeles, CA</option>
             </select>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Booking Details </legend>
-            <label for="inDate">Check-in Date </label><input type="date" name="inDate" min="2020-03-03">
-            <label for="outDate">Check-out Date </label><input type="date" name="outDate" min="2020-03-03">
-            <br>
-            <br>
-            <label for="roomNum">Rooms </label><input type="number" name="roomNum" min="1" max="20">
-            <label for="guestNum">Guests </label><input type="number" name="guestNum" min="1" max="6">
-        </fieldset>
-    </form>
+        </div>
+        <div class="box">
+            <h1>Check-in Date</h1>
+            <input type="date" id="check-in" name="check-in">
+        </div>
+        <div class="box">
+            <h1>Check-out Date</h1>
+            <input type="date" id="check-out" name="check-out">
+        </div>
+
+        <div class="box-2">
+            <h1>Room Number</h1>
+            <input type="number" id="rooms" name="rooms">
+        </div>
+        <div class="box-2">
+            <h1>Guest Number</h1>
+            <input type="number" id="guests" name="guests">
+        </div>
+
+        <div class="box-3">
+            <input type="submit" id="search" value="Show options">
+        </div>
+    </section>
+<!--    <form action="" method="GET">-->
+<!--        <fieldset>-->
+<!--            <legend>Destination </legend>-->
+<!--            <label for="destination">Where to? </label>-->
+<!--            <select name = "city" required>-->
+<!--                <option value=""> </option>-->
+<!--                <option value="Nashville">Nashville, TN</option>-->
+<!--                <option value="Miami">Miami, FL</option>-->
+<!--                <option value="Atlanta">Atlanta, GA</option>-->
+<!--                <option value="NewYork">New York, NY</option>-->
+<!--                <option value="LosAngeles">Los Angeles, CA</option>-->
+<!--            </select>-->
+<!--        </fieldset>-->
+<!--        <br>-->
+<!--        <fieldset>-->
+<!--            <legend>Booking Details </legend>-->
+<!--            <label for="inDate">Check-in Date </label><input type="date" name="inDate" min="2020-03-03">-->
+<!--            <label for="outDate">Check-out Date </label><input type="date" name="outDate" min="2020-03-03">-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <label for="roomNum">Rooms </label><input type="number" name="roomNum" min="1" max="20">-->
+<!--            <label for="guestNum">Guests </label><input type="number" name="guestNum" min="1" max="6">-->
+<!--        </fieldset>-->
+<!--    </form>-->
 </body>
 </html>
