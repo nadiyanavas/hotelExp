@@ -19,15 +19,41 @@ body::after{
     overflow:hidden;
 }
 header{
-    padding-top:10px;
+    padding-top:0px;
     border-bottom:#000000 3px solid;
 }
 header #company-name{
+    float: left;
     text-align-last: center;
 }
 header #company-name h1{
     font-family: 'Bowlby One SC', cursive;
 }
+header a{
+    color:#000;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:18px;
+}
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float:right;
+    margin-top:20px;
+}
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+#showcase{
+    text-align: center;
+    min-height: 400px;
+}
+
 #select{
     padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -53,7 +79,7 @@ header #company-name h1{
     box-sizing: border-box;
     margin: 0;
     border: 1px solid #aaa;
-    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.07);
     border-radius: .5em;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -151,4 +177,5 @@ linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
     background-position: right .7em top 50%, 0 0;
     background-size: .65em auto, 100%;
 }
+
 
