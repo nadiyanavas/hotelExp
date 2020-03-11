@@ -20,18 +20,18 @@ body::after{
 }
 header{
     padding-top:0px;
-    border-bottom:#000000 3px solid;
+    border-bottom:#b3bb9f 2px solid;
 }
 header #company-name{
     float: left;
     text-align-last: center;
 }
 header #company-name h1{
-    color: #d0ccdb;
+    color:#a79fbb;
     font-family: 'Open Sans Condensed';
 }
 header a{
-    color:#d7dbcc;
+    color:#b3bb9f;
     text-decoration:none;
     text-transform: uppercase;
     font-size:18px;
