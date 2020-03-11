@@ -46,13 +46,15 @@ header nav{
     margin-top:20px;
 }
 header a:hover{
-    color:#cccccc;
+    color:#b4aec6;
     font-weight:bold;
 }
 
 #showcase{
-    text-align: center;
-    min-height: 400px;
+    color: #9fb3bb;
+    font-family: 'Open Sans Condensed', cursive;
+    text-align: left;
+    min-height: 200px;
 }
 
 #select{
