@@ -20,18 +20,18 @@ body::after{
 }
 header{
     padding-top:0px;
-    border-bottom:#b3bb9f 2px solid;
+    border-bottom:#9ba681 2px solid;
 }
 header #company-name{
     float: left;
     text-align-last: center;
 }
 header #company-name h1{
-    color:#a79fbb;
+    color:#8c81a6;
     font-family: 'Open Sans Condensed';
 }
 header a{
-    color:#b3bb9f;
+    color:#9ba681;
     text-decoration:none;
     text-transform: uppercase;
     font-size:18px;
@@ -51,10 +51,10 @@ header a:hover{
 }
 
 #showcase{
-    color: #9fb3bb;
+    color: #a68c81;
     font-family: 'Open Sans Condensed', cursive;
     text-align: left;
-    min-height: 200px;
+    min-height: 50px;
 }
 
 #select{
