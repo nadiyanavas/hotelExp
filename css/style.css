@@ -20,7 +20,7 @@ body::after{
 }
 header{
     padding-top:0px;
-    border-bottom:#8c81a6 2px bold;
+    border-bottom:#8c81a6 3px bold;
 }
 header #company-name{
     float: left;
@@ -57,7 +57,7 @@ header a:hover{
 }
 
 #select{
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: 'Open Sans', sans-serif;
     position: relative;
 }
