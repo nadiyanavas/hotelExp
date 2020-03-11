@@ -27,10 +27,11 @@ header #company-name{
     text-align-last: center;
 }
 header #company-name h1{
+    color: #d0ccdb;
     font-family: 'Open Sans Condensed';
 }
 header a{
-    color:#eaaeae;
+    color:#d7dbcc;
     text-decoration:none;
     text-transform: uppercase;
     font-size:18px;
