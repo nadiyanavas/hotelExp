@@ -46,13 +46,13 @@ header nav{
     margin-top:20px;
 }
 header a:hover{
-    color:#b4aec6;
+    color:#8c81a6;
     font-weight:bold;
 }
 
 #showcase{
     color: #a68c81;
-    font-family: 'Open Sans Condensed', cursive;
+    font-family: 'Open Sans Condensed', italic;
     text-align: left;
     min-height: 50px;
 }
