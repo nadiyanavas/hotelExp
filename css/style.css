@@ -19,8 +19,8 @@ body::after{
     overflow:hidden;
 }
 header{
-    padding-top:0px;
-    border-bottom:#8c81a6 2px solid;
+    padding-top:5px;
+    border-bottom:#000000 3px solid;
 }
 header #company-name{
     float: left;
